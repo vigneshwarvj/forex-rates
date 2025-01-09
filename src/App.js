@@ -23,7 +23,7 @@ const App = () => {
 
   useEffect(() => {
     fetchData();  // Fetch initial data
-    const intervalId = setInterval(fetchData, 2000);  // Poll every 10 seconds
+    const intervalId = setInterval(fetchData, 1000);  // Poll every 10 seconds
 
     return () => clearInterval(intervalId);  // Cleanup interval on unmount
   }, []);  // Empty dependency array ensures this runs only once on mount
