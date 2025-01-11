@@ -5,7 +5,7 @@ const App = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
 
-  const apiUrl = 'https://api.1forge.com/quotes?pairs=EUR/USD,GBP/USD,USD/JPY,AUD/USD,CAD/USD,CHF/USD,NZD/USD,EUR/GBP,EUR/JPY,XAU/USD&api_key=L3U43ksbgZzMghC9UtvVH60oJxtVMjtp';  // Insert your API URL here
+  const apiUrl = 'https://api.1forge.com/quotes?pairs=EUR/USD,GBP/USD,USD/JPY,AUD/USD,CAD/USD,CHF/USD,NZD/USD,EUR/GBP,EUR/JPY,XAU/USD&api_key=YOUR_API_KEY';  // Insert your API URL here
 
   // Function to fetch data
   const fetchData = async () => {
